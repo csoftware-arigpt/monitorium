@@ -44,6 +44,6 @@ bash run.sh
 
 ## License
 
-BSD-3-Clause. Check `LICENSE` for more information
+GNU GPL v3. Check `LICENSE` for more information
 
 @csoftware, 2024
