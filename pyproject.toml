@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "monitorium"
+version = "0.1.0"
+description = "Channel monitoring system for Telegram"
+authors = ["csoftware"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyrogram = "^2.0.106"
+sqlalchemy = "^2.0.36"
+pymysql = "^1.1.1"
+tgcrypto = "^1.2.5"
+cryptography = "^43.0.3"
+pytelegrambotapi = "^4.24.0"
+
+[tool.poetry.scripts]
+monitorium = "monitorium.monitorium:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
